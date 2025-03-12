@@ -1,7 +1,4 @@
-
-
-// Example 9 axis sensor code for UCD EEEN10020
-// By Dr. Paul Cuffe paul.cuffe@ucd.ie
+//this is our test code to make sure we had the maths for the PI controller working in order to calculate the error and how much we needed to adjust with out implementing any game strategies to keep it simple
 
 #include <LCD16x2.h> //allows us to use the little LCD at the top
 #include <Wire.h>
