@@ -1,5 +1,8 @@
-// Example 9 axis sensor code for UCD EEEN10020
-// By Dr. Paul Cuffe paul.cuffe@ucd.ie
+
+//this is the code for our charge down strategy, it uses a PI controller in order to correct the heading of the robot making sure it doesn't drift off cours.
+//The code is simple in the robot only has to move forward
+//This code guarantees us two points and may be used against blocking type robots as ours is quite fast
+
 
 #include <LCD16x2.h> //allows us to use the little LCD at the top
 #include <Wire.h>
@@ -29,7 +32,7 @@ float positions[8][2];
 
   //Sensor Initialization
   mySensor.initSensor();          //The I2C Address can be changed here inside this function in the library
-  mySensor.setOperationMode(OPERATION_MODE_NDOF);   //NDOF = 9 Degrees of Freedom Sensor (Other operatin modes are available)
+  mySensor.setOperationMode(OPERATION_MODE_NDOF);   //NDOF = 9 Degrees of Freedom Sensor (Other operation modes are available)
   mySensor.setUpdateMode(AUTO);  //The default is AUTO. Changing to MANUAL requires calling the relevant update functions prior to calling the read functions
   //Setting to MANUAL requires fewer reads to the sensor
 
