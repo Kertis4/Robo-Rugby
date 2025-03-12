@@ -7,7 +7,7 @@ RoboRugby is a robotics competition where autonomous robots compete to score the
 
 The competition follows a single-elimination tournament format, meaning each match is critical; losing a single round results in elimination. With 19 balls of varying point values positioned on the table at the start of each match, teams must develop creative and efficient ways to maximize their score while minimizing their opponent’s.
 
-Rules - 
+
 
 ## Created Strategies
 
