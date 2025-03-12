@@ -7,6 +7,8 @@ RoboRugby is a robotics competition where autonomous robots compete to score the
 
 The competition follows a single-elimination tournament format, meaning each match is critical; losing a single round results in elimination. With 19 balls of varying point values positioned on the table at the start of each match, teams must develop creative and efficient ways to maximize their score while minimizing their opponent’s.
 
+Rules - 
+
 ## Created Strategies
 
 ### 1. Charge Down
@@ -71,3 +73,6 @@ To execute these strategies, the robot must perform basic tasks:
 ## Conclusion
 
 Throughout this report, we have explored multiple strategies for RoboRugby 2025. By integrating Charge Down, Blockade, and Brachistochrone Bot into a single adaptable system, we maximize our chances of success in different match scenarios. Moving forward, we will refine our robot’s navigation system, optimize PI control, and conduct extensive testing to ensure consistency across strategies.
+
+
+
